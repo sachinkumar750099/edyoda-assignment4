@@ -1,0 +1,10 @@
+
+
+class pow:
+    def __init__(self , x , n):
+        self.x = x
+        self.n = n
+        print(x**n)
+x = int(input('enter the base number: '))
+y = int(input('enter the power: '))
+q = pow(x,y)
